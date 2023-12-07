@@ -1,0 +1,6 @@
+enum MediaModification {
+    case replace(Media?)
+    case changeVideoSettings(VideoSettingsModification)
+    case changeMask(MaskSettingsModification)
+}
+
